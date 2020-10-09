@@ -2,17 +2,11 @@ import static java.lang.Math.*;
 
 public class Calculations {
     public boolean isEven(int n) {
-        if ((n % 2) == 0) {
-            return true;
-        } else
-            return false;
+        return (n % 2) == 0;
     }
 
     public boolean isOdd(int n) {
-        if ((n % 2) != 0) {
-            return true;
-        } else
-            return false;
+        return (n % 2) != 0;
     }
 
     public double circleField(double r) {
